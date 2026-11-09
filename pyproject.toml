@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "headlinelens"
+version = "0.1.0"
+description = "A keyless equity-watchlist news brief with transparent catalyst tags."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Santos Linares", email = "santos9linares@gmail.com"}]
+keywords = ["finance", "news", "equity-research", "RSS", "watchlist"]
+dependencies = ["requests>=2.31.0", "PyYAML>=6.0.1", "mcp>=1.9,<2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+headlinelens = "headlinelens.cli:main"
+headlinelens-mcp = "headlinelens.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+headlinelens = ["default_watchlist.yml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
