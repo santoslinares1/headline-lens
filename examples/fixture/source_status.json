@@ -1,0 +1,17 @@
+{
+  "MARKET": {
+    "error": null,
+    "warnings": [],
+    "headlines": 0
+  },
+  "DEMO": {
+    "error": null,
+    "warnings": [],
+    "headlines": 3
+  },
+  "QUIET": {
+    "error": null,
+    "warnings": [],
+    "headlines": 0
+  }
+}

@@ -1,0 +1,4 @@
+ticker,title,source,published_at,link,tags
+DEMO,DemoCo reports earnings and raises guidance,Fixture Wire,2026-11-06T10:00:00+00:00,https://example.com/demo/earnings?utm_source=fixture,earnings;guidance
+DEMO,DemoCo announces dividend,Fixture Wire,2026-11-06T09:00:00+00:00,https://example.com/demo/dividend,dividend
+DEMO,DemoCo hosts community event,Yahoo Finance RSS,2026-11-05T13:00:00+00:00,https://example.com/demo/event,

@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-11-06T12:00:00+00:00",
+  "hours": 24,
+  "watchlist": {
+    "market": [
+      "MARKET"
+    ],
+    "tickers": [
+      "DEMO",
+      "QUIET"
+    ]
+  },
+  "results": [
+    {
+      "ticker": "MARKET",
+      "items": [],
+      "error": null,
+      "warnings": []
+    },
+    {
+      "ticker": "DEMO",
+      "items": [
+        {
+          "ticker": "DEMO",
+          "title": "DemoCo reports earnings and raises guidance",
+          "source": "Fixture Wire",
+          "published_at": "2026-11-06T10:00:00+00:00",
+          "link": "https://example.com/demo/earnings?utm_source=fixture",
+          "summary": "Fictional quarterly results for testing only.",
+          "tags": [
+            "earnings",
+            "guidance"
+          ]
+        },
+        {
+          "ticker": "DEMO",
+          "title": "DemoCo announces dividend",
+          "source": "Fixture Wire",
+          "published_at": "2026-11-06T09:00:00+00:00",
+          "link": "https://example.com/demo/dividend",
+          "summary": "",
+          "tags": [
+            "dividend"
+          ]
+        },
+        {
+          "ticker": "DEMO",
+          "title": "DemoCo hosts community event",
+          "source": "Yahoo Finance RSS",
+          "published_at": "2026-11-05T13:00:00+00:00",
+          "link": "https://example.com/demo/event",
+          "summary": "",
+          "tags": []
+        }
+      ],
+      "error": null,
+      "warnings": []
+    },
+    {
+      "ticker": "QUIET",
+      "items": [],
+      "error": null,
+      "warnings": []
+    }
+  ]
+}

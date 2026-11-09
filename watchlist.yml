@@ -1,0 +1,9 @@
+# Edit this list to follow different names.
+market:
+  - SPY
+tickers:
+  - AAPL
+  - MSFT
+  - NVDA
+  - JPM
+  - XOM
